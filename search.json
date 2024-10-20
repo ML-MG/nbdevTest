@@ -1,0 +1,62 @@
+[
+  {
+    "objectID": "nbdevtest2.html",
+    "href": "nbdevtest2.html",
+    "title": "nbdevTest2",
+    "section": "",
+    "text": "source\n\nfoo2\n\n foo2 ()\n\n\nsource\n\n\nbar2\n\n bar2 ()",
+    "crumbs": [
+      "nbdevTest2"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdevTest",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "nbdevTest"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "nbdevTest",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nInstall nbdevTest in Development mode\n# make sure nbdevTest package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to nbdevTest\n$ nbdev_prepare",
+    "crumbs": [
+      "nbdevTest"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "nbdevTest",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/ML-MG/nbdevTest.git\nor from conda\n$ conda install -c ML-MG nbdevTest\nor from pypi\n$ pip install nbdevTest\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "nbdevTest"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdevTest",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2\n\n\n\nimport inspect\nfrom nbdevTest import *\n\nfunctions_list = [f for f in dir() if inspect.isfunction(globals().get(f))]\nprint(functions_list)\n\n['bar1', 'bar2', 'foo1', 'foo2', 'open']",
+    "crumbs": [
+      "nbdevTest"
+    ]
+  },
+  {
+    "objectID": "nbdevtest.html",
+    "href": "nbdevtest.html",
+    "title": "nbdevTest",
+    "section": "",
+    "text": "source\n\nfoo1\n\n foo1 ()\n\n\nsource\n\n\nbar1\n\n bar1 ()",
+    "crumbs": [
+      "nbdevTest"
+    ]
+  }
+]
