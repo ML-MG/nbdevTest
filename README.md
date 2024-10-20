@@ -65,3 +65,13 @@ Fill me in please! Don’t forget code examples:
 ```
 
     2
+
+``` python
+import inspect
+from nbdevTest import *
+
+functions_list = [f for f in dir() if inspect.isfunction(globals().get(f))]
+print(functions_list)
+```
+
+    ['bar1', 'bar2', 'foo1', 'foo2', 'open']
