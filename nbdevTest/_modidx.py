@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://ML-MG.github.io',
                 'git_url': 'https://github.com/ML-MG/nbdevTest',
                 'lib_path': 'nbdevTest'},
-  'syms': {'nbdevTest.nbdevTest': {'nbdevTest.nbdevTest.foo2': ('nbdevtest.html#foo2', 'nbdevTest/nbdevTest.py')}}}
+  'syms': { 'nbdevTest.nbdevTest': { 'nbdevTest.nbdevTest.bar': ('nbdevtest.html#bar', 'nbdevTest/nbdevTest.py'),
+                                     'nbdevTest.nbdevTest.foo2': ('nbdevtest.html#foo2', 'nbdevTest/nbdevTest.py')}}}
