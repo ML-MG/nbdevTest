@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdevTest"
+  site-url: "https://ML-MG.github.io/nbdevTest"
+  description: "nbdev test"
+  repo-branch: main
+  repo-url: "https://github.com/ML-MG/nbdevTest"
